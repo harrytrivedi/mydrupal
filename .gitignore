@@ -1,0 +1,26 @@
+# Ignore core files that can be rebuilt
+/core/
+/vendor/
+/composer.lock
+/sites/default/files/
+/sites/default/private/
+/sites/simpletest/
+/sites/default/settings.local.php
+
+# Ignore DDEV configuration
+.ddev/
+
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore backup and temporary files
+*.log
+*.sql
+*.sql.gz
+*.tar
+*.zip
+*.bak
+*.swp
